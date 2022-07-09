@@ -23,10 +23,7 @@ namespace Hangman
 			{
 				File.Create(path);
 			}
-			if (File.)
-			{
 
-			}
 			string content = File.ReadAllText(path);
 			Console.Write("Name Spieler eins: ");
 			spieler1 = Console.ReadLine();
@@ -322,8 +319,6 @@ namespace Hangman
 		{
 			string content = File.ReadAllText(path);
 			string result = "";
-			int lineIndex = 0;
-
 			return result;
 		}
 
