@@ -3,11 +3,11 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
-namespace Hangman
+namespace DOS
 {
-	internal class Program
+	public class Hangman
 	{
-		static void Main()
+		public Hangman()
 		{
 			#region INITIALISIERUNG
 			Random rnd = new Random();
